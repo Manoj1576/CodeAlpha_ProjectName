@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MotoZone - Premium Bike Gallery</title>
+        <link rel="stylesheet" href="style.css">
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Rajdhani:wght@300;500;700&display=swap"
+                rel="stylesheet">
+</head>
+
+<body>
+
+        <header>
+                <div class="logo">MOTO<span class="highlight">ZONE</span></div>
+                <nav class="filters">
+                        <button class="filter-btn active" onclick="filterSelection('tvs')">TVS</button>
+                        <button class="filter-btn" onclick="filterSelection('pulsar')">PULSAR</button>
+                        <button class="filter-btn" onclick="filterSelection('yamaha')">YAMAHA</button>
+                </nav>
+        </header>
+
+        <main class="gallery-container">
+
+                <!-- TVS SECTION -->
+                <div id="tvs" class="brand-section">
+                        <h2 class="section-title">Team TVS Racing</h2>
+                        <div class="grid">
+                                <div class="card"><img src="images/tvs/bike1.jpg" data-name="TVS Apache RR 310"
+                                                data-engine="312cc Liquid Cooled"
+                                                data-desc="The ultimate track weapon directly from TVS Racing."
+                                                onclick="openLightbox(this)"></div>
+                                <div class="card"><img src="images/tvs/bike2.jpg" data-name="TVS Apache RTR 310"
+                                                data-engine="312cc Liquid Cooled"
+                                                data-desc="Freestyler aggression with advanced telemetry."
+                                                onclick="openLightbox(this)"></div>
+                                <div class="card"><img src="images/tvs/bike3.jpg" data-name="TVS Apache RTR 200 4V"
+                                                data-engine="197cc Oil Cooled"
+                                                data-desc="Race-tuned functionality and performance."
+                                                onclick="openLightbox(this)"></div>
+                                <div class="card"><img src="images/tvs/bike4.jpg" data-name="TVS Apache RTR 160 4V"
+                                                data-engine="160cc Oil Cooled"
+                                                data-desc="The most powerful 160cc in its class."
+                                                onclick="openLightbox(this)"></div>
+                                <div class="card"><img src="images/tvs/bike5.jpg" data-name="TVS Ronin Special"
+                                                data-engine="225cc OHC"
+                                                data-desc="Unscripted adventures with modern retro style."
+                                                onclick="openLightbox(this)"></div>
+                                <div class="card"><img src="images/tvs/bike6.jpg" data-name="TVS Apache RR 310 BTO"
+                                                data-engine="312cc Liquid Cooled"
+                                                data-desc="Built to Order. Racing dynamics."
+                                                onclick="openLightbox(this)"></div>
+                                <div class="card"><img src="images/tvs/bike7.jpg" data-name="TVS Raider 125 Racing"
+                                                data-engine="124cc Air Cooled"
+                                                data-desc="Wicked acceleration and sporty looks."
+                                                onclick="openLightbox(this)"></div>
+                                <div class="card"><img src="images/tvs/bike8.jpg" data-name="TVS Apache RTR 180"
+                                                data-engine="180cc EFI" data-desc="The beast that started it all."
+                                                onclick="openLightbox(this)"></div>
+                                <div class="card"><img src="images/tvs/bike9.jpg" data-name="TVS iQube ST"
+                                                data-engine="Electric Drive"
+                                                data-desc="Smart electric mobility with racing spirit."
+                                                onclick="openLightbox(this)"></div>
+                                <div class="card"><img src="images/tvs/bike10.jpg" data-name="TVS Apache RTR 165 RP"
+                                                data-engine="165cc Race Perf"
+                                                data-desc="Limited edition racing performance."
+                                                onclick="openLightbox(this)"></div>
+                                <div class="card"><img src="images/tvs/bike11.jpg" data-name="TVS HLX 150"
+                                                data-engine="150cc Utility"
+                                                data-desc="Rugged and reliable for all terrains."
+                                                onclick="openLightbox(this)"></div>
+                                <div class="card"><img src="images/tvs/bike12.jpg" data-name="TVS Radeon"
+                                                data-engine="110cc Duralife"
+                                                data-desc="Solid performance with everyday practicality."
+                                                onclick="openLightbox(this)"></div>
+                                <div class="card"><img src="images/tvs/bike13.jpg" data-name="TVS Sport"
+                                                data-engine="110cc ET-Fi"
+                                                data-desc="Mileage champion of the commuter segment."
+                                                onclick="openLightbox(this)"></div>
+                                <div class="card"><img src="images/tvs/bike14.jpg" data-name="TVS Star City Plus"
+                                                data-engine="110cc EcoThrust"
+                                                data-desc="Stylish and efficient for the daily ride."
+                                                onclick="openLightbox(this)"></div>
+                                <div class="card"><img src="images/tvs/bike15.jpg" data-name="TVS Jupiter 125"
+                                                data-engine="125cc Intelligo"
+                                                data-desc="More space, more comfort, more life."
+                                                onclick="openLightbox(this)"></div>
+                        </div>
+                </div>
+
+                <!-- PULSAR SECTION -->
+                <div id="pulsar" class="brand-section" style="display:none">
+                        <h2 class="section-title">Pulsar Maniacs</h2>
+                        <div class="grid">
+                                <div class="card"><img src="images/pulsar/bike1.jpg" data-name="Pulsar NS400Z"
+                                                data-engine="373cc Liquid Cooled"
+                                                data-desc="The biggest and baddest Pulsar ever created."
+                                                onclick="openLightbox(this)"></div>
+                                <div class="card"><img src="images/pulsar/bike2.jpg" data-name="Pulsar NS400Z (Edition)"
+                                                data-engine="373cc Liquid Cooled"
+                                                data-desc="Aggressive street fighter styling."
+                                                onclick="openLightbox(this)"></div>
+                                <div class="card"><img src="images/pulsar/bike3.jpg" data-name="Pulsar NS400Z Turbo"
+                                                data-engine="373cc Liquid Cooled"
+                                                data-desc="Unleash the beast on the tarmac."
+                                                onclick="openLightbox(this)"></div>
+                                <div class="card"><img src="images/pulsar/bike4.jpg" data-name="Pulsar N250"
+                                                data-engine="250cc Oil Cooled"
+                                                data-desc="Refined performance for the city."
+                                                onclick="openLightbox(this)"></div>
+                                <div class="card"><img src="images/pulsar/bike5.jpg" data-name="Pulsar NS400Z Black"
+                                                data-engine="373cc Liquid Cooled" data-desc="Stealth mode enabled."
+                                                onclick="openLightbox(this)">
+                                </div>
+                                <div class="card"><img src="images/pulsar/bike6.jpg" data-name="Pulsar NS200"
+                                                data-engine="200cc Liquid Cooled"
+                                                data-desc="The legend of the naked sport segment."
+                                                onclick="openLightbox(this)">
+                                </div>
+                                <div class="card"><img src="images/pulsar/bike7.jpg" data-name="Pulsar NS400Z Race"
+                                                data-engine="373cc DOHC" data-desc="Track ready performance."
+                                                onclick="openLightbox(this)">
+                                </div>
+                                <div class="card"><img src="images/pulsar/bike8.jpg" data-name="Pulsar RS200"
+                                                data-engine="200cc Triple Spark" data-desc="Aerodynamic perfection."
+                                                onclick="openLightbox(this)"></div>
+                                <div class="card"><img src="images/pulsar/bike9.jpg" data-name="Pulsar NS400Z Red"
+                                                data-engine="373cc Liquid Cooled"
+                                                data-desc="Bold looks for bold riders." onclick="openLightbox(this)">
+                                </div>
+                                <div class="card"><img src="images/pulsar/bike10.jpg" data-name="Pulsar NS160"
+                                                data-engine="160cc Oil Cooled" data-desc="The perfect street machine."
+                                                onclick="openLightbox(this)"></div>
+                                <div class="card"><img src="images/pulsar/bike11.jpg" data-name="Pulsar 150"
+                                                data-engine="149cc Twin Spark" data-desc="India's No.1 Sports Bike."
+                                                onclick="openLightbox(this)"></div>
+                                <div class="card"><img src="images/pulsar/bike12.jpg" data-name="Pulsar 125"
+                                                data-engine="124cc DTS-i" data-desc="The entry to the Pulsar mania."
+                                                onclick="openLightbox(this)"></div>
+                                <div class="card"><img src="images/pulsar/bike13.jpg" data-name="Pulsar 220F"
+                                                data-engine="220cc Oil Cooled" data-desc="The Legendaries never die."
+                                                onclick="openLightbox(this)"></div>
+                                <div class="card"><img src="images/pulsar/bike14.jpg" data-name="Pulsar F250"
+                                                data-engine="250cc Oil Cooled"
+                                                data-desc="The biggest Pulsar with fairing."
+                                                onclick="openLightbox(this)"></div>
+                                <div class="card"><img src="images/pulsar/bike15.jpg" data-name="Pulsar P150"
+                                                data-engine="150cc Refined" data-desc="New age styling and agility."
+                                                onclick="openLightbox(this)"></div>
+                        </div>
+                </div>
+
+                <!-- YAMAHA SECTION -->
+                <div id="yamaha" class="brand-section" style="display:none">
+                        <h2 class="section-title">Yamaha Racing Blue</h2>
+                        <div class="grid">
+                                <div class="card"><img src="images/yamaha/bike1.jpg" data-name="Yamaha R15 V4"
+                                                data-engine="155cc VVA" data-desc="The track master born of MotoGP DNA."
+                                                onclick="openLightbox(this)"></div>
+                                <div class="card"><img src="images/yamaha/bike2.jpg" data-name="Yamaha R15M"
+                                                data-engine="155cc VVA" data-desc="Exclusive Metallic Grey edition."
+                                                onclick="openLightbox(this)"></div>
+                                <div class="card"><img src="images/yamaha/bike3.jpg" data-name="Yamaha R15 V4 Blue"
+                                                data-engine="155cc VVA" data-desc="Iconic racing blue livery."
+                                                onclick="openLightbox(this)">
+                                </div>
+                                <div class="card"><img src="images/yamaha/bike4.jpg" data-name="Yamaha R15S"
+                                                data-engine="155cc VVA" data-desc="Unibody seat for ultimate comfort."
+                                                onclick="openLightbox(this)"></div>
+                                <div class="card"><img src="images/yamaha/bike5.jpg" data-name="Yamaha R15 V3"
+                                                data-engine="155cc VVA" data-desc="The game changer of 150cc segment."
+                                                onclick="openLightbox(this)"></div>
+                                <div class="card"><img src="images/yamaha/bike6.jpg" data-name="Yamaha R15M Monster"
+                                                data-engine="155cc VVA" data-desc="Official MotoGP Team Edition."
+                                                onclick="openLightbox(this)">
+                                </div>
+                                <div class="card"><img src="images/yamaha/bike7.jpg" data-name="Yamaha R1"
+                                                data-engine="998cc Crossplane" data-desc="The ultimate superbike."
+                                                onclick="openLightbox(this)">
+                                </div>
+                                <div class="card"><img src="images/yamaha/bike8.jpg" data-name="Yamaha R15 V4 Dark"
+                                                data-engine="155cc VVA" data-desc="Dark Knight edition."
+                                                onclick="openLightbox(this)">
+                                </div>
+                                <div class="card"><img src="images/yamaha/bike9.jpg" data-name="Yamaha R15 V4 Red"
+                                                data-engine="155cc VVA" data-desc="Passion in every rev."
+                                                onclick="openLightbox(this)">
+                                </div>
+                                <div class="card"><img src="images/yamaha/bike10.jpg" data-name="Yamaha R7"
+                                                data-engine="689cc CP2" data-desc="Supersport style for the street."
+                                                onclick="openLightbox(this)"></div>
+                                <div class="card"><img src="images/yamaha/bike11.jpg" data-name="Yamaha MT-15 V2"
+                                                data-engine="155cc Liquid Cooled" data-desc="The Dark Side of Japan."
+                                                onclick="openLightbox(this)"></div>
+                                <div class="card"><img src="images/yamaha/bike12.jpg" data-name="Yamaha FZ-X"
+                                                data-engine="149cc Blue Core"
+                                                data-desc="Ride Free with Neo-Retro style."
+                                                onclick="openLightbox(this)"></div>
+                                <div class="card"><img src="images/yamaha/bike13.jpg" data-name="Yamaha Aerox 155"
+                                                data-engine="155cc Liquid Cooled"
+                                                data-desc="The fastest scooter in India." onclick="openLightbox(this)">
+                                </div>
+                                <div class="card"><img src="images/yamaha/bike14.jpg" data-name="Yamaha FZ25"
+                                                data-engine="249cc Air Cooled" data-desc="Lord of the Streets."
+                                                onclick="openLightbox(this)"></div>
+                                <div class="card"><img src="images/yamaha/bike15.jpg" data-name="Yamaha R3"
+                                                data-engine="321cc Twin Cylinder" data-desc="Pure racing spirit."
+                                                onclick="openLightbox(this)">
+                                </div>
+                        </div>
+                </div>
+
+        </main>
+
+        <!-- LIGHTBOX MODAL -->
+        <div id="lightbox" class="lightbox">
+                <span class="close" onclick="closeLightbox()">&times;</span>
+                <div class="lightbox-wrapper">
+                        <div class="lightbox-image-container">
+                                <img class="lightbox-content" id="lightbox-img">
+                        </div>
+                        <div class="lightbox-details">
+                                <h2 id="lb-name">Bike Model</h2>
+                                <h4 id="lb-engine">Engine Specs</h4>
+                                <p id="lb-desc">Description goes here...</p>
+                                <button class="inquire-btn">BOOK TEST RIDE</button>
+                        </div>
+                </div>
+        </div>
+
+        <script src="script.js"></script>
+</body>
+
+</html>
